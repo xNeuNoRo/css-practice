@@ -1,0 +1,11 @@
+/** Primer nivel de hijos **/
+
+/** Selecciona todos los div hijos de admin **/
+.admin div {
+    border: 2px solid red;
+}
+
+/** Selecciona solo los div que son hijos directos de admin **/
+.admin > div {
+    border: 2px solid blue;
+}

@@ -1,0 +1,12 @@
+/** Ultimo hijo de una lista **/
+
+/** last-child busca el último hijo de su elemento padre **/
+
+.ul li:last-child {
+    border: 2px solid blue;
+}
+
+/** last-of-type busca el último elemento de su tipo entre sus hermanos **/
+ul li:last-of-type {
+    background-color: lightblue;
+}

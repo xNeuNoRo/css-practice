@@ -1,0 +1,6 @@
+/* Selector de Etiqueta (global) */
+
+p {
+    font-size: 2rem;
+    color: red;
+}

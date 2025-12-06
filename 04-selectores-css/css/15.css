@@ -1,0 +1,13 @@
+/** Primera letra y primera línea de un parrafo **/
+
+/** ::first-letter obviamente selecciona la primera letra **/
+.primer-letra::first-letter {
+    font-size: 3rem;
+    color: blue;
+}
+
+/** ::first-line selecciona la primera línea **/
+.primer-linea::first-line {
+    font-weight: bold;
+    color: red;
+}

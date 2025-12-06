@@ -1,0 +1,22 @@
+/** Como seleccionar un elemento específico **/
+
+/** nth-child(n) selecciona el enésimo hijo de su elemento padre **/
+
+ul li:nth-child(2) {
+    border: 2px solid purple;
+}
+
+/** nth-child(2n) selecciona todos los hijos pares de su elemento padre **/
+/** n empieza en 0 **/
+/** odd = impar **/
+/** even = par **/
+
+ul li:nth-child(2n + 1) {
+    background-color: lightgray;
+}
+ul li:nth-child(odd) {
+    background-color: lightyellow;
+}
+ul li:nth-child(4n+4) {
+    color: salmon;
+}

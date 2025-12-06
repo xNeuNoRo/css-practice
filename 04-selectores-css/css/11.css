@@ -1,0 +1,11 @@
+/** Primer hijo de una lista **/
+
+/** first-child busca el primer hijo de su elemento padre **/
+ul li:first-child {
+    border: 2px solid red;
+}
+
+/** first-of-type busca el primer elemento de su tipo entre sus hermanos **/
+ul li:first-of-type {
+    background-color: yellow;
+}

@@ -1,0 +1,13 @@
+/** Selector de Atributo **/
+
+
+/** Selecciona todos los enlaces que tengan el atributo href con el valor https://www.google.com **/
+/** ^ = que inicien con eso, similar a un startsWith **/
+/** $ = que terminen con eso, similar a un endsWith **/
+a[href^="http"] {
+    color: green;
+}
+
+input[type="tel"] {
+    border: 5px solid red;
+}

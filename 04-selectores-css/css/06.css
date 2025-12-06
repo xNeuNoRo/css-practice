@@ -1,0 +1,10 @@
+
+/** Selector de clase y etiqueta **/
+
+div.texto {
+    background-color: yellow;
+}
+
+.texto {
+    background-color: red;
+}

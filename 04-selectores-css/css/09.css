@@ -1,0 +1,6 @@
+/** Primer ELemento Despues de otro elemento **/
+
+/** Selecciona el primer párrafo que va despues un div dentro de admin **/
+.admin div + p {
+  background-color: red;
+}

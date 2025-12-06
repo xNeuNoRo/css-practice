@@ -1,0 +1,6 @@
+/** Seleccionar todos los elementos excepto uno o varios **/
+
+/** Si quiero seleccionar varios debo concatenarle varios :not() **/
+p:not(.texto):not(.oferta) {
+    color: orange;
+}
