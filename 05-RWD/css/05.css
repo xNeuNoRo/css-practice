@@ -1,0 +1,27 @@
+/** * CSS 05 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Shorthand para media queries (en este caso con snippet)
+ */
+
+/** Snippet mq para los media queries: **/
+/**
+"Media Query": {
+		"prefix": "mq",
+		"body": [
+			"@media (min-width: ${1:768px}) {",
+			"\t$0",
+			"}"
+		]
+	}
+        **/
+
+.oferta {
+  background-color: #00446e;
+  padding: 2rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 6rem;
+  margin: 0;
+}

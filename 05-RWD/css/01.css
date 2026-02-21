@@ -1,0 +1,43 @@
+/** * CSS 02 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Introducción a los Media Queries
+ */
+
+.oferta {
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.precio {
+    font-size: 6rem;
+    margin: 0;
+}
+
+/** Introducción a los Media Queries **/
+
+
+/** Basicamente son condicionales para aplicar estilos CSS **/
+/** dependiendo de ciertas características del dispositivo o la pantalla donde se visualiza el contenido. **/
+/** Se utilizan para crear diseños responsivos que se adaptan a diferentes tamaños de pantalla y resoluciones. **/
+
+/* Sintaxis básica de un Media Query */
+/** Caso de un print **/
+/* @media print {
+    body {
+        background-color: red;
+    }
+} */
+
+/** Recomendado utilizar rems en lugar de px para tamaños y medidas **/
+/** Ejemplo: Aplicar estilos específicos para pantallas con un ancho máximo de 600px **/
+@media (max-width: 600px) {
+    .oferta {
+        max-width: 30rem;
+    }
+    .precio {
+        font-size: 3rem;
+    }
+}

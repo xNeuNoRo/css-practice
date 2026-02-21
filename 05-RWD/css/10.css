@@ -1,0 +1,4 @@
+img {
+    max-width: 100%; /* Esto hace que la imagen no se salga del contenedor y si es pequeña se pueda ajustar a su tamaño */
+    display: block; /* Esto elimina el espacio debajo de la imagen que se genera por ser un elemento inline por defecto */
+}

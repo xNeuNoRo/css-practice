@@ -1,0 +1,31 @@
+/** * CSS 03 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Desktop First Design
+ */
+
+.oferta {
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.precio {
+    font-size: 4rem;
+    margin: 0;
+}
+
+/** Nota importante, el orden de los Media Queries es importante, ya que se aplican de arriba hacia abajo. **/
+/** En este caso, para desktop first se recomienda los mas grandes primero y luego los mas pequeños, para mobile first es al reves. **/
+@media (max-width: 800px) {
+    .oferta {
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .oferta {
+        max-width: 100%;
+    }
+}

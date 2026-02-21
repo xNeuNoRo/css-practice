@@ -1,0 +1,25 @@
+/** * CSS 06 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Media Queries Estandar
+ */
+
+/* Este size es para dispositivos moviles */
+@media (min-width: 550px) {
+}
+
+
+/* Este size es para tablets */
+@media (min-width: 768px) {
+}
+
+/* Este size es para laptops */
+@media (min-width: 1024px) {
+}
+
+/* Este size es para desktops */
+@media (min-width: 1200px) {
+}
+
+/* Este size es para desktops grandes */
+@media (min-width: 1600px) {
+}

@@ -1,0 +1,29 @@
+/** * CSS 07 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Width y Max-Width para hacer contenedores responsive
+ */
+
+/** Combinando el width con el max-width, 
+  podemos hacer que el contenedor sea responsive, es decir, que se adapte al tamaño de la pantalla. **/
+
+/** Por ejemplo quiero que mi contenedor sea de 1000px pero se adapte al 90% del tamaño de la pantalla, 
+  entonces le pongo width: 90% y max-width: 1000px, de esta forma el contenedor se adaptara al tamaño 
+  de la pantalla pero no superara los 1000px. **/
+.contenedor-responsive {
+  background-color: #fff;
+  width: 90%;
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/** Otra forma de hacerlo es con width y la funcion de min() **/
+.contenedor-responsive {
+  background-color: #fff;
+  width: min(
+    90%,
+    1000px
+  ); /* El contenedor se adaptara al tamaño de la pantalla pero no superara los 1000px. */
+  height: 400px;
+  margin: 0 auto;
+}

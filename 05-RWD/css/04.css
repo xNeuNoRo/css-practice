@@ -1,0 +1,42 @@
+/** * CSS 04 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Media Queries entre 2 tamaños
+ */
+
+.oferta {
+  background-color: #00446e;
+  padding: 2rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 6rem;
+  margin: 0;
+}
+
+/** Esto es lo mismo que el siguiente código, pero con una sola media query **/
+/** Ahorrandonos el reescribir los estilos previos en otro media query **/
+@media (min-width: 600px) and (max-width: 800px) {
+  .oferta {
+    background-color: yellow;
+  }
+}
+
+/** Si quisiera revisar mas de 2 estilos se puede lograr de esta manera, pero es mas recomendable limitarse a 2 por media query **/
+@media (min-width: 600px) and (max-width: 800px), (min-width: 1200px) {
+  .oferta {
+    background-color: yellow;
+  }
+}
+
+/* @media (min-width: 600px) {
+  .oferta {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 800px) {
+  .oferta {
+    background-color: #00446e;
+  }
+} */

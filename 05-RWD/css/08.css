@@ -1,0 +1,15 @@
+/** * CSS 08 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Hacer un diseño responsive con 3 columnas con Flexbox
+ */
+
+@media (min-width: 768px) {
+    .tres-columnas-flex {
+        display: flex;
+        gap: 2rem;
+    }
+    .columna {
+        flex: 1; /* Esto hace que cada columna ocupe el mismo espacio disponible cada columna */
+        /* Osea, flex-grow: 1 */
+    }
+}

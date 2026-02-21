@@ -1,0 +1,15 @@
+/** * CSS 09 - Media Queries
+ * Curso de HTML y CSS - 2025
+ * Hacer un diseño responsive con 3 columnas con Grid
+ */
+
+@media (min-width: 768px) {
+  .tres-columnas-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      3, /* 3 columnas */
+      1fr /* 1 fracción del espacio disponible para cada columna */
+    ); /* Esto hace que cada columna ocupe el mismo espacio disponible cada columna */
+    column-gap: 2rem;
+  }
+}
